@@ -1,0 +1,39 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# -----------------------------
+# Streamlit
+# -----------------------------
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# -----------------------------
+# SQLite (base de dados local)
+# -----------------------------
+banco.db
+
+# -----------------------------
+# MacOS, Linux, Windows
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# Jupyter / Colab
+# -----------------------------
+.ipynb_checkpoints
+
+# -----------------------------
+# VS Code e ambiente virtual
+# -----------------------------
+.vscode/
+.venv/
+env/
+venv/
